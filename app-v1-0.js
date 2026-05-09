@@ -430,7 +430,7 @@ const MOVES = [
     "gif": "./assets/move-24.gif"
   }
 ];
-const APP_VERSION = "1.1";
+const APP_VERSION = "1.1.1";
 const STORAGE={current:"taichiflow_current_v1",known:"taichiflow_known_v1",weak:"taichiflow_weak_v1",sessions:"taichiflow_sessions_v1"};
 const state={section:"learn",index:Number(localStorage.getItem(STORAGE.current)||0),quizMove:null,timerRunning:false,timerSeconds:0,timerId:null,reveal:false};
 const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
