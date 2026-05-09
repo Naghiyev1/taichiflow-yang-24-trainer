@@ -87,3 +87,14 @@ Cause:
 Also adds direct fallback links to:
 - `assets/videos/full-demo-back.mp4`
 - `assets/videos/full-demo-front.mp4`
+
+
+## v1.5.2 — Front View Toggle Fix
+
+Fixes the Full Practice front/back toggle.
+
+What changed:
+- The toggle now uses `data-demo-view="front"` and `data-demo-view="back"`
+- The click handler catches the toggle before other actions
+- The selected video source is rendered directly into the video element
+- Direct video links remain as fallback
