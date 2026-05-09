@@ -53,3 +53,23 @@ Required files:
   - 5-minute weak-point loop
 - Practice timer now supports countdown plans and session labels.
 - Added clearer user guidance throughout the app.
+
+
+## v1.5 — Full Demo Video Mode
+
+Add your two full demo videos here:
+
+- `assets/videos/full-demo-front.mp4`
+- `assets/videos/full-demo-back.mp4`
+
+The app now includes a Full Practice page with:
+- Back view / front view toggle
+- Full demo video player
+- Guidance on when to use each view
+- Practice routines for daily habit, correction and memory
+
+Best learner flow:
+1. Use back view to follow along.
+2. Use front view to check posture and hand shapes.
+3. Use Learn view for individual GIFs.
+4. Use Drill mode for sequence memory.
