@@ -40,3 +40,16 @@ Required files:
 - service-worker.js
 - README.md
 - assets/wudang/*.gif
+
+
+## v1.4 clarity and UX fix
+
+- Fixed Previous / Next buttons under the GIF.
+- Made the Learn page explain the actual learning loop.
+- Reworked Drill mode so it explains what it trains and what to do after answering.
+- Made Practice mode cards actionable:
+  - 3-minute sequence recall
+  - 10-minute slow form
+  - 5-minute weak-point loop
+- Practice timer now supports countdown plans and session labels.
+- Added clearer user guidance throughout the app.
