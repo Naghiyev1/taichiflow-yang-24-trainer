@@ -73,3 +73,17 @@ Best learner flow:
 2. Use front view to check posture and hand shapes.
 3. Use Learn view for individual GIFs.
 4. Use Drill mode for sequence memory.
+
+
+## v1.5.1 — Full Practice Route Fix
+
+Fixes the issue where the videos were uploaded correctly but the Full Practice page did not render.
+
+Cause:
+- `renderDemo()` existed
+- the Full Practice nav existed
+- but `render()` was missing the `state.section === "demo"` route
+
+Also adds direct fallback links to:
+- `assets/videos/full-demo-back.mp4`
+- `assets/videos/full-demo-front.mp4`
