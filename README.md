@@ -27,3 +27,12 @@ Upload all files to your repo root:
 - icon.svg
 - manifest.json
 - service-worker.js
+
+
+## New in v1.1 visual guidance pack
+
+- Simplified full-form animated GIF
+- Simplified individual move GIF for all 24 moves
+- GIF shown on the Learn page for the current move
+- GIF thumbnails shown on the Sequence page
+- Clear note that GIFs are rhythm/shape guides, not a substitute for live instruction
