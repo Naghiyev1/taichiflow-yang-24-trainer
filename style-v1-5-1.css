@@ -92,3 +92,23 @@ button:disabled{opacity:.45;cursor:not-allowed;transform:none!important}
     justify-content:flex-start;
   }
 }
+
+/* v1.5.1 full practice route fix */
+.demo-direct-links{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  padding:0 24px 16px;
+}
+.demo-direct-links a{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.08);
+  color:#b8ffc5;
+  border-radius:999px;
+  padding:10px 14px;
+  text-decoration:none;
+  font-weight:850;
+}
+.demo-direct-links a:hover{
+  background:rgba(255,255,255,.12);
+}
