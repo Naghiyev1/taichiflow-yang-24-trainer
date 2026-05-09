@@ -112,3 +112,8 @@ button:disabled{opacity:.45;cursor:not-allowed;transform:none!important}
 .demo-direct-links a:hover{
   background:rgba(255,255,255,.12);
 }
+
+/* v1.5.2 front-view toggle fix */
+.demo-toggle button{
+  min-width:112px;
+}
