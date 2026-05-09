@@ -36,3 +36,24 @@ Upload all files to your repo root:
 - GIF shown on the Learn page for the current move
 - GIF thumbnails shown on the Sequence page
 - Clear note that GIFs are rhythm/shape guides, not a substitute for live instruction
+
+
+## v1.1.1 Visual Cache Fix
+
+Important: upload the entire `assets` folder to the repo root.
+
+The visuals will not appear unless these files exist online:
+
+- `assets/yang24-full-form.gif`
+- `assets/move-01.gif`
+- ...
+- `assets/move-24.gif`
+
+Also upload:
+
+- `app-v1-1-1.js`
+- `style-v1-1-1.css`
+- updated `index.html`
+- updated `service-worker.js`
+
+If the old app still appears, clear site data or unregister the old service worker.
