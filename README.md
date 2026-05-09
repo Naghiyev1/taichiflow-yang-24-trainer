@@ -1,2 +1,29 @@
-# taichiflow-yang-24-trainer
-Yang style Taichi trainer 
+# TaichiFlow v1.0 — Yang 24 Sequence Trainer
+
+Mobile-first Tai Chi memory trainer for the simplified Yang Style 24 Form.
+
+## Included
+
+- Full Yang 24 sequence
+- Chinese names and pinyin
+- One-move learning view
+- Previous / current / next flow
+- Body cues, breath cues, transition cues
+- “What comes next?” memory drill
+- Known / weak-point tracking
+- Practice timer and session history
+- Static PWA-style app
+
+## Upload
+
+Upload all files to your repo root:
+
+- index.html
+- style-v1-0.css
+- app-v1-0.js
+- style.css
+- app.js
+- README.md
+- icon.svg
+- manifest.json
+- service-worker.js
