@@ -1,7 +1,7 @@
 {
   "name": "TaichiFlow \u2014 Yang 24 Sequence Trainer",
   "short_name": "TaichiFlow",
-  "description": "A Tai Chi Yang 24 form sequence memory trainer.",
+  "description": "A Tai Chi Yang 24 form sequence memory trainer with real GIF guides.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#07120d",
