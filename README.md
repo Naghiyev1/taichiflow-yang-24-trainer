@@ -1,59 +1,42 @@
-# TaichiFlow v1.0 — Yang 24 Sequence Trainer
+# TaichiFlow v1.3 — Wudang GIF Guide
 
-Mobile-first Tai Chi memory trainer for the simplified Yang Style 24 Form.
+A Yang Style 24 Form sequence trainer with locally stored real GIF guides from Wudang Shaolin Dream tutorial pages.
 
-## Included
+## What is included
 
-- Full Yang 24 sequence
-- Chinese names and pinyin
-- One-move learning view
+- Full 24-move sequence trainer
+- Real GIF guide for each move
+- Two views for move 4
+- Two views for move 18
+- Visuals page grouped by Part 1 and Part 2
 - Previous / current / next flow
-- Body cues, breath cues, transition cues
-- “What comes next?” memory drill
-- Known / weak-point tracking
-- Practice timer and session history
-- Static PWA-style app
+- Memory drill
+- Known and weak-point tracking
+- Practice timer
+- Mobile-first layout
+
+## Sources / attribution
+
+Visual GIFs are from:
+
+- https://wudangshaolindream.com/en/tai-chi-24-first-part/
+- https://wudangshaolindream.com/en/tai-ji-quan-24-second-part/
+
+Attribution is kept inside the app. If you publish this publicly or use it commercially, ask the source owner for permission.
 
 ## Upload
 
-Upload all files to your repo root:
+Upload everything to the repo root, including the full `assets/wudang/` folder.
+
+Required files:
 
 - index.html
-- style-v1-0.css
-- app-v1-0.js
-- style.css
+- app-v1-3.js
+- style-v1-3.css
 - app.js
-- README.md
+- style.css
 - icon.svg
 - manifest.json
 - service-worker.js
-
-
-## New in v1.1 visual guidance pack
-
-- Simplified full-form animated GIF
-- Simplified individual move GIF for all 24 moves
-- GIF shown on the Learn page for the current move
-- GIF thumbnails shown on the Sequence page
-- Clear note that GIFs are rhythm/shape guides, not a substitute for live instruction
-
-
-## v1.1.1 Visual Cache Fix
-
-Important: upload the entire `assets` folder to the repo root.
-
-The visuals will not appear unless these files exist online:
-
-- `assets/yang24-full-form.gif`
-- `assets/move-01.gif`
-- ...
-- `assets/move-24.gif`
-
-Also upload:
-
-- `app-v1-1-1.js`
-- `style-v1-1-1.css`
-- updated `index.html`
-- updated `service-worker.js`
-
-If the old app still appears, clear site data or unregister the old service worker.
+- README.md
+- assets/wudang/*.gif
