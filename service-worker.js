@@ -1,5 +1,5 @@
-const CACHE_NAME="taichiflow-v1-5";
-const APP_SHELL=["./","./index.html","./style-v1-5.css","./app-v1-5.js","./icon.svg","./manifest.json","./assets/videos/README.md"];
+const CACHE_NAME="taichiflow-v1-5-1";
+const APP_SHELL=["./","./index.html","./style-v1-5-1.css","./app-v1-5-1.js","./icon.svg","./manifest.json","./assets/videos/README.md"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(APP_SHELL)));self.skipWaiting()});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ns=>Promise.all(ns.filter(n=>n!==CACHE_NAME).map(n=>caches.delete(n)))));self.clients.claim()});
 self.addEventListener("fetch",e=>{
